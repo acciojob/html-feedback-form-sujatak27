@@ -10,7 +10,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h2>Feedback Form</h2>
-	<form id="feedbackForm">
+	<form id="feedbackForm" method="post">
   <label for="name">Name: </label>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id="name" name="name" minlength="3" maxlength="50" required>
   <br><br>
@@ -26,7 +26,7 @@
   <label for="likeness">Likeness (1-100): </label>
   <input type="range" id="likeness" name="likeness" min="1" max="100" required>
   <br><br>
-  <button type="submit" action="post">Submit Feedback</button>
+  <button type="submit" >Submit Feedback</button>
 </form>
 
 	
